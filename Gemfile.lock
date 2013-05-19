@@ -41,6 +41,9 @@ GEM
       rdtool
       rsvg2
       rttool
+    rabbit-theme-rurema (1.0.0)
+      rabbit (>= 2.0.2)
+    rake (10.0.4)
     rdtool (0.6.38)
     rsvg2 (2.0.0)
       cairo (>= 1.10.0)
@@ -53,3 +56,5 @@ PLATFORMS
 
 DEPENDENCIES
   rabbit
+  rabbit-theme-rurema
+  rake
