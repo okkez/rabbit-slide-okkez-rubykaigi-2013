@@ -1,13 +1,13 @@
 = Ruby
 
 : subtitle
-    リファレンスマニュアル刷新計画 2013 春
+    リファレンスマニュアル刷新計画 2013 初夏
 : author
     okkez
 : date
     2013/05/30
 : theme
-    ruby-ref
+    rurema
 
 = 自己紹介
 
@@ -15,6 +15,7 @@
 * Ruby 歴は九年くらい
 * doc.okkez.net
 * doc.ruby-lang.org
+* 2年振りの報告
 
 = プロジェクトの目標
 
@@ -27,57 +28,126 @@
 
 * 2006-10-12 第 1 段階完了
 * 2007-01-08 第 2 段階完了
-
-= これまでの歩み
-
-* 2008-06-22 第 3 段階継続中
-* 2009-07-18 第 3 段階継続中
-* 2010-08-28 第 3 段階継続中
-* 2011-07-18 第 3 段階継続中
-
-= これまでの歩み
-
-* 2013-05-30
+* 2011-09-01 第 3 段階完了
+* 2013-05-30 メンテナンスフェイズ
 
 = これからの予定 (2011-07時点)
 
 * 第 3 段階を2011-08中に終わらせる
   * メンテナンスフェイズ移行
-* 参加しやすくする環境作り
-  * Gem 化
-  * UTF-8 化？
 
 = これからの予定 (2011-07時点)
 
+* 参加しやすくする環境作り
+  * Gem 化
+  * UTF-8 化？
 * RDoc との協力
 
-= 現状 (2013-05時点)
+= 現状 (2013-05-30時点)
 
 * 第 3 段階を2011-08中に終わらせる
   * メンテナンスフェイズ移行 -> 一応移行した!
+
+= 現状 (2013-05-30時点)
+
 * 参加しやすくする環境作り
   * Gem 化 -> リリースした!!
   * UTF-8 化 -> 完了した!!
-
-= 現状 (2013-05時点)
-
 * RDoc との協力 -> まだ!!
 
 = これからやりたいこと
 
-* TODO
+* 参加しやすくする環境作り
+  * リポジトリのGitHub移行
+* RDoc との協力
+* ツールの整備
 
 = Help!!
 
 * 言語仕様
 * 1.9.3, 2.0.0 対応
 * 標準添付ライブラリ
-  * Windows 系
+  * ASSIGN.low
 * ツール開発
 
-= サードパーティ製ツール
+= サードパーティ
 
-* TODO
+* yhara/prismdoc
+* yhara/myrurema
+* miyamae/rubydoc-ja
+
+= サードパーティ
+
+* clear-code/rurema-search
+* daic-h/rurepl
+* hibariya/ruremai
+* sorah/rurema_instant
+
+= サードパーティ
+
+* Rubyリファレンスマニュアル chm版リミックス
+* Rubyリファレンスマニュアル with rubicle.net
+
+= サードパーティ
+
+* さまざまなサードパーティの成果物があって素晴らしいですね!!
+* これも新しいリファレンスマニュアルが自由なライセンスを明示しているおかげですね!!
+
+== yhara/prismdoc
+
+  # blockquote
+  # title = https://github.com/yhara/prismdoc
+  るりまとRDocを名寄せして、統一されたインターフェイスで見るためのウェブアプリ。翻訳機能もあるけど諸々未完成。
+
+== yhara/myrurema
+
+  # blockquote
+  # title = https://github.com/yhara/myrurema
+  るりまのリファレンスを手軽に参照するためのツールです。
+
+== サクサク引けるRubyリファレンスマニュアル
+
+  # blockquote
+  # title = http://miyamae.github.io/rubydoc-ja/
+  るりまのビューアです。高速な検索とキーボード操作で目的の項目を素早く見つけることができます。
+
+== Rurepl - Rurema Read Eval Print Loop
+
+  # blockquote
+  # title = http://rurepl.herokuapp.com/
+  Rubyのリファレンスマニュアルをrepl風に実行出来るサイトです。
+
+== hibariya/ruremai
+
+  # blockquote
+  # title = https://github.com/hibariya/ruremai
+  Ruby リファレンスマニュアル、通称るりまを開くのが日頃から割と面倒だったので、irbからさっと開けるようなものを作った。
+
+== Rubyリファレンスマニュアル chm版リミックス
+
+  # blockquote
+  # title = http://ruby.morphball.net/refm-remix.html
+  Ruby公式サイトで配布されている新リファレンスマニュアルを、当サイトが独自にchm形式（HTML Help形式）へコンパイルしたものです。
+
+== Rubyリファレンスマニュアル with rubicle.net
+
+  # blockquote
+  # title = http://refm.rubicle.net/
+  rubicle.net 支援活動の一環として、クールなデザインのRubyリファレンスマニュアルを公開しています。
+
+== sorah/rurema_instant
+
+  # blockquote
+  # title = https://github.com/sorah/rurema_instant
+  るりまサーチを検索するためのSafari/Chrome向けのExtensionらしい。
+
+== clear-code/rurema-search
+
+  # blockquote
+  # title = https://github.com/clear-code/rurema-search
+  るりまを全文検索するWebアプリケーションです。
+
+doc.ruby-lang.org でも動かしてるけどるりまプロジェクトでメンテしているわけでなない。
 
 = お礼
 

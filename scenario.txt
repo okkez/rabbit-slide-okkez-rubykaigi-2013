@@ -1,0 +1,18 @@
+= Ruby
+
+: subtitle
+    リファレンスマニュアル刷新計画 2013 初夏
+: author
+    okkez
+: date
+    2013/05/30
+: theme
+    rurema
+
+= 自己紹介
+
+* okkez (おっきーと読みます)
+* Ruby 歴は九年くらい
+* doc.okkez.net
+* doc.ruby-lang.org
+* 2年振りの報告
