@@ -68,7 +68,7 @@
 
 == Note
 
-
+- RubyKaigi2011の後、メンテナンスフェイズに移行しました
 
 = 現状
 
@@ -77,6 +77,12 @@
   * UTF-8 化 -> 完了した!!
 
 == Note
+
+- 参加しやすくする環境作りとして、
+
+- BitClust と refe2 を Gem化してコマンド一発でセットアップできるようにしました
+
+- UTF-8 化して多くの環境で編集しやすいようにしました
 
 
 = 現状
@@ -88,12 +94,83 @@
 
 == Note
 
+- 残念ながら RDoc との協力はまだ全然できていません
+
+- やりたいと思っているのは、
+
+- 近年、RDoc が充実してきているので更新の追従
+
+- るりまから RDoc へリンクし、相互に比較しやすくしたいです
+
+- 他にも色々とやりたいことはあります
+
 = これからやりたいこと
 
 * 参加しやすくする環境作り
   * リポジトリのGitHub移行
 * RDoc との協力
 * ツールの整備
+
+== Note
+
+- 参加しやすくする環境作りの一環としてリポジトリを GitHub へ移行します
+
+- GitHub へ移行することによって、Travis CI によるドキュメントの自動ビルド、ツール類の自動テストができます。
+
+- RDoc との協力というか RDoc を活用したいです。具体的には、RDoc の更新を自動通知する仕組みを用意したいです。
+
+- ツールの整備としては Ruby2.0.0 対応や、一部の動かなくなったツールを動くようにしたいです 
+
+= サードパーティ
+
+* yhara/prismdoc
+* yhara/myrurema
+* miyamae/rubydoc-ja
+
+== Note
+
+- yhara/prismdoc: るりまとRDocを名寄せして、統一されたインターフェイスで見るためのウェブアプリ。翻訳機能もあるけど諸々未完成。
+
+- yhara/myrurema: るりまのリファレンスを手軽に参照するためのツールです。一部の機能はBitClustにも取り込みました。
+
+- miyamae/rubydoc-ja: サクサク引けるRubyリファレンスマニュアル。るりまのビューアです。高速な検索とキーボード操作で目的の項目を素早く見つけることができます。
+
+= サードパーティ
+
+* clear-code/rurema-search
+* daic-h/rurepl
+* hibariya/ruremai
+* sorah/rurema_instant
+
+== Note
+
+- clear-code/rurema-search: るりまを全文検索するWebアプリケーションです。
+
+- daic-h/rurepl: Rubyのリファレンスマニュアルをrepl風に実行出来るサイトです。
+
+- hibariya/ruremai: Ruby リファレンスマニュアル、通称るりまを開くのが日頃から割と面倒だったので、irbからさっと開けるようなものを作った。
+
+- sorah/rurema_instant: るりまサーチを検索するためのSafari/Chrome向けのExtensionらしい。
+
+
+= サードパーティ
+
+* Rubyリファレンスマニュアル
+  * chm版リミックス
+  * with rubicle.net
+
+== Note
+
+- ひとまとめにしちゃいましたが、それぞれ別の方がメンテナンスされています。
+
+- chm版リミックス: Ruby公式サイトで配布されている新リファレンスマニュアルを、当サイトが独自にchm形式（HTML Help形式）へコンパイルしたものです。
+
+- with rubicle.net: rubicle.net 支援活動の一環として、クールなデザインのRubyリファレンスマニュアルを公開しています。
+
+= サードパーティ
+
+* さまざまなサードパーティの成果物があって素晴らしいですね!!
+* これも新しいリファレンスマニュアルが自由なライセンスを明示しているおかげですね!!
 
 = Help!!
 
@@ -103,84 +180,11 @@
   * ASSIGN.low
 * ツール開発
 
-= サードパーティ
+== Note
 
-* yhara/prismdoc
-* yhara/myrurema
-* miyamae/rubydoc-ja
+xxx  
 
-= サードパーティ
 
-* clear-code/rurema-search
-* daic-h/rurepl
-* hibariya/ruremai
-* sorah/rurema_instant
-
-= サードパーティ
-
-* Rubyリファレンスマニュアル chm版リミックス
-* Rubyリファレンスマニュアル with rubicle.net
-
-= サードパーティ
-
-* さまざまなサードパーティの成果物があって素晴らしいですね!!
-* これも新しいリファレンスマニュアルが自由なライセンスを明示しているおかげですね!!
-
-== yhara/prismdoc
-
-  # blockquote
-  # title = https://github.com/yhara/prismdoc
-  るりまとRDocを名寄せして、統一されたインターフェイスで見るためのウェブアプリ。翻訳機能もあるけど諸々未完成。
-
-== yhara/myrurema
-
-  # blockquote
-  # title = https://github.com/yhara/myrurema
-  るりまのリファレンスを手軽に参照するためのツールです。
-
-== サクサク引けるRubyリファレンスマニュアル
-
-  # blockquote
-  # title = http://miyamae.github.io/rubydoc-ja/
-  るりまのビューアです。高速な検索とキーボード操作で目的の項目を素早く見つけることができます。
-
-== Rurepl - Rurema Read Eval Print Loop
-
-  # blockquote
-  # title = http://rurepl.herokuapp.com/
-  Rubyのリファレンスマニュアルをrepl風に実行出来るサイトです。
-
-== hibariya/ruremai
-
-  # blockquote
-  # title = https://github.com/hibariya/ruremai
-  Ruby リファレンスマニュアル、通称るりまを開くのが日頃から割と面倒だったので、irbからさっと開けるようなものを作った。
-
-== Rubyリファレンスマニュアル chm版リミックス
-
-  # blockquote
-  # title = http://ruby.morphball.net/refm-remix.html
-  Ruby公式サイトで配布されている新リファレンスマニュアルを、当サイトが独自にchm形式（HTML Help形式）へコンパイルしたものです。
-
-== Rubyリファレンスマニュアル with rubicle.net
-
-  # blockquote
-  # title = http://refm.rubicle.net/
-  rubicle.net 支援活動の一環として、クールなデザインのRubyリファレンスマニュアルを公開しています。
-
-== sorah/rurema_instant
-
-  # blockquote
-  # title = https://github.com/sorah/rurema_instant
-  るりまサーチを検索するためのSafari/Chrome向けのExtensionらしい。
-
-== clear-code/rurema-search
-
-  # blockquote
-  # title = https://github.com/clear-code/rurema-search
-  るりまを全文検索するWebアプリケーションです。
-
-doc.ruby-lang.org でも動かしてるけどるりまプロジェクトでメンテしているわけでなない。
 
 = るりま会議
 
