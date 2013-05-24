@@ -131,10 +131,10 @@
 
 = サードパーティ
 
-* yhara/prismdoc
-* yhara/myrurema
-* miyamae/rubydoc-ja
-* clear-code/rurema-search
+* ((<"yhara/prismdoc"|URL:https://github.com/yhara/prismdoc>))
+* ((<"yhara/myrurema"|URL:https://github.com/yhara/myrurema>))
+* ((<"miyamae/rubydoc-ja"|URL:https://github.com/miyamae/rubydoc-ja>))
+* ((<"clear-code/rurema-search"|URL:https://github.com/clear-code/rurema-search>))
 
 == Note
 
@@ -148,10 +148,10 @@
 
 = サードパーティ
 
-* jugyo/ruri
-* daic-h/rurepl
-* hibariya/ruremai
-* sorah/rurema_instant
+* ((<"jugyo/ruri"|URL:https://github.com/jugyo/ruri>))
+* ((<"daic-h/rurepl"|URL:https://github.com/daic-h/rurepl>))
+* ((<"hibariya/ruremai"|URL:https://github.com/hibariya/ruremai>))
+* ((<"sorah/rurema_instant"|URL:https://github.com/sorah/rurema_instant?source=c>))
 
 == Note
 
@@ -167,12 +167,12 @@
 = サードパーティ
 
 * Rubyリファレンスマニュアル
-  * chm版リミックス
-  * with rubicle.net
+  * ((<"chm版リミックス"|URL:http://ruby.morphball.net/refm-remix.html>))
+  * ((<"with rubicle.net"|URL:http://refm.rubicle.net/>))
 
 == Note
 
-- ひとまとめにしちゃいましたが、それぞれ別の方がメンテナンスされています。
+- ひとまとめにしちゃいましたが、それぞれ別の方がメンテナンスされている別デザインのリファレンスマニュアルです。
 
 - chm版リミックス: Ruby公式サイトで配布されている新リファレンスマニュアルを、当サイトが独自にchm形式（HTML Help形式）へコンパイルしたものです。
 
