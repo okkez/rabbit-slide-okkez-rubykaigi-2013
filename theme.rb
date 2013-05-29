@@ -16,3 +16,7 @@ match("**", ReferText) do |texts|
   texts.prop_set("underline", "none")
   texts.prop_set("foreground", "darkblue")
 end
+
+match("**", DescriptionTerm) do |terms|
+  terms.prop_set("weight", "normal")
+end
