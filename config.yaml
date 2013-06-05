@@ -1,13 +1,13 @@
 ---
 id: rubykaigi2013
 base_name: slide
-tags: 
-  - rubykaigi2013
+tags:
+- rubykaigi2013
 presentation_date: 2023-05-30
 version: 1.0.0
-licenses: 
-  - CC BY-SA 3.0
-slideshare_id:
+licenses:
+- CC BY-SA 3.0
+slideshare_id: rubykaigi2013
 speaker_deck_id: 
 ustream_id: 
 vimeo_id: 
@@ -16,5 +16,5 @@ author:
   name: okkez
   email: okkez000@gmail.com
   rubygems_user: okkez
-  slideshare_user: okkez 
-  speaker_deck_user: 
+  slideshare_user: okkez
+  speaker_deck_user: okkez
